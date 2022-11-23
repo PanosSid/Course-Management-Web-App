@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.myy803.course_mgt_app.controller" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="818" y="151"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.myy803.course_mgt_app.service" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="815" y="251"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.myy803.course_mgt_app.service.statistics" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/service/statistics" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="990" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="com.myy803.course_mgt_app.dao" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="815" y="481"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="com.myy803.course_mgt_app.csvhelper" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/csvhelper" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="607" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="com.myy803.course_mgt_app.model" project="course_mgt_app" 
+    file="/course_mgt_app/src/main/java/com/myy803/course_mgt_app/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1170" y="259"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="7">    
+    <bendpoint x="607" y="258"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <bendpoint x="609" y="430"/>    
+    <bendpoint x="1171" y="431"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="1170" y="156"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="570" y="156"/>    
+    <bendpoint x="570" y="331"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="15">    
+    <bendpoint x="1254" y="487"/>    
+    <bendpoint x="1255" y="312"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="16">    
+    <bendpoint x="935" y="308"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
