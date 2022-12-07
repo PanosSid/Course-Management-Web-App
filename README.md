@@ -1,7 +1,7 @@
 # Course-Management-Web-App
 The objective of this project is to develop a Web application that allows an instructor to manage the
 grading of the courses that he teaches. Specifically, The app allows an instructor to log in,
-add/remove/update his/her courses, and add/remove/update students registered in one of his courses.
+add/remove/update his/her courses, and add/remove/update students registered in one of his/her courses.
 Also, the user can view the statistics of the student's grading.
 
 Technologies used:
